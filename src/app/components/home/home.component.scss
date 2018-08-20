@@ -1,0 +1,56 @@
+//  background: url(../../../assets/background.jpg) no-repeat center fixed;
+//  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+//  background-size: cover; /* version standardisée */
+
+.title {
+  color: #000000;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 34px auto auto;
+
+  header {
+    background-color: #124174;
+    display: grid;
+    grid-template-columns: 85% auto;
+
+    strong {
+      margin: 2px;
+      -webkit-app-region: drag;
+      color: #fff;
+
+      span {
+        color: #fff;
+      }
+    }
+
+    nav {
+      justify-self: right;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline;
+        float: left;
+        margin-left: 8px;
+        cursor: pointer;
+
+        img {
+          width: 12px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+button {
+  margin: 3px;
+}

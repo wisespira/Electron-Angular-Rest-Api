@@ -1,0 +1,29 @@
+<!--  {{ 'PAGES.HOME.TITLE' | translate }}-->
+
+<div class="container">
+
+  <header>
+    <strong><span>Newcastle </span>DESK</strong>
+    <nav>
+      <ul>
+        <li (click)="minimizeWindow()">/
+        </li>
+        <li (click)="closeWindow()">X
+        </li>
+      </ul>
+
+
+    </nav>
+  </header>
+
+
+
+</div>
+
+<button (click)="getUsers()">Get Info</button>
+
+<div *ngFor="let user of users; let i = index; let lst= last;">
+  <h2>{{user.name}}</h2>
+   <p>index {{i+1}} </p>
+ <p>{{user.email}}</p>
+</div>
