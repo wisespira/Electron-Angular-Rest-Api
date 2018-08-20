@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Angular Logo](./logo-angular.jpg)](https://angular.io/) [![Electron Logo](./logo-electron.jpg)](https://electron.atom.io/)
 
 [![Travis Build Status][build-badge]][build]
@@ -98,3 +99,7 @@ Note that you can't use Electron or NodeJS native libraries in this case. Please
 [github-star]: https://github.com/maximegris/angular-electron/stargazers
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20angular-electron!%20https://github.com/maximegris/angular-electron%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/maximegris/angular-electron.svg?style=social
+=======
+# Electron-Angular-Rest-Api
+Copy src and main.ts into existing electron project 
+>>>>>>> 5773a0b5f0ad81980c92ff0db9e2fc0fd63fa105
